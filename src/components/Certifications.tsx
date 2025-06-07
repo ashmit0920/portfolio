@@ -1,38 +1,37 @@
-
 import { motion } from "framer-motion";
 import { Award, Calendar, ExternalLink } from "lucide-react";
 
 export const Certifications = () => {
   const certifications = [
     {
-      title: "AWS Certified Cloud Practitioner",
-      issuer: "Amazon Web Services",
-      date: "March 2024",
+      title: "GenAI Basics - How LLM works",
+      issuer: "Coursera",
+      date: "March 2025",
       description: "Foundational understanding of AWS Cloud services and architecture",
-      link: "#",
+      link: "https://coursera.org/share/f001043e69a7e0954d646a0af0de8e13",
       badge: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=100&h=100&fit=crop"
     },
     {
-      title: "React Developer Certification",
-      issuer: "Meta",
-      date: "January 2024",
-      description: "Advanced React concepts, hooks, state management, and best practices",
+      title: "Applied Tech - Machine Learning",
+      issuer: "WhiteHat Jr",
+      date: "January 2022",
+      description: "Data manupulation, advanced Machine Learning algorithms",
       link: "#",
       badge: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=100&h=100&fit=crop"
     },
     {
-      title: "Python for Data Science",
-      issuer: "IBM",
-      date: "November 2023",
+      title: "Mastering Data Analysis with Pandas",
+      issuer: "Coursera",
+      date: "April 2025",
       description: "Data analysis, visualization, and machine learning with Python",
-      link: "#",
+      link: "https://coursera.org/share/76952633d9c98b7028e60142c9c20750",
       badge: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=100&h=100&fit=crop"
     },
     {
-      title: "JavaScript Algorithms and Data Structures",
-      issuer: "freeCodeCamp",
-      date: "September 2023",
-      description: "Comprehensive course covering algorithms, data structures, and problem-solving",
+      title: "Web Development Bootcamp by Angela Yu",
+      issuer: "Udemy",
+      date: "August 2024",
+      description: "Comprehensive course covering full-stack web development.",
       link: "#",
       badge: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=100&h=100&fit=crop"
     }
