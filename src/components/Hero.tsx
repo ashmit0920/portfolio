@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button.js";
 import TrueFocus from "./ui/TrueFocus/TrueFocus.js";
 
 export const Hero = () => {
@@ -36,7 +36,7 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <motion.h1 
-            className="text-5xl md:text-7xl font-bold mb-6"
+            className="text-5xl md:text-7xl font-bold mb-12"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -108,11 +108,11 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1 }}
-            className="flex justify-center space-x-6 mb-12"
+            className="flex justify-center space-x-6 mb-10"
           >
             {[
-              { Icon: Github, href: "#", label: "GitHub" },
-              { Icon: Linkedin, href: "#", label: "LinkedIn" },
+              { Icon: Github, href: "https://github.com/ashmit0920", label: "GitHub" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/ashmit-thawait-30546231a", label: "LinkedIn" },
               { Icon: Mail, href: "#contact", label: "Email" },
             ].map(({ Icon, href, label }) => (
               <motion.a
@@ -132,7 +132,7 @@ export const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.2 }}
-          className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
+          className="absolute bottom-0 left-1/2 transform -translate-x-1/2"
         >
           <motion.div
             animate={{ y: [0, 10, 0] }}

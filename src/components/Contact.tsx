@@ -10,19 +10,19 @@ export const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "ashmit.thawait@example.com",
-      href: "mailto:ashmit.thawait@example.com"
+      value: "athawait.work@gmail.com",
+      href: "mailto:athawait.work@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 798-740-3728",
+      href: "tel:+917987403728"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Your City, Country",
+      value: "India",
       href: "#"
     }
   ];
