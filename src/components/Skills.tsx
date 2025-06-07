@@ -18,11 +18,11 @@ export const Skills = () => {
       title: "Frameworks & Libraries",
       skills: [
         { name: "React", level: 85 },
-        { name: "Node.js", level: 80 },
+        { name: "Next.js", level: 80 },
         { name: "Express.js", level: 75 },
         { name: "Django", level: 70 },
-        { name: "Flask", level: 75 },
-        { name: "TailwindCSS", level: 90 },
+        { name: "FastAPI", level: 80 },
+        { name: "Tailwind CSS", level: 90 },
       ]
     },
     {
@@ -30,10 +30,10 @@ export const Skills = () => {
       skills: [
         { name: "Git", level: 85 },
         { name: "Docker", level: 70 },
-        { name: "AWS", level: 65 },
-        { name: "MongoDB", level: 75 },
+        { name: "AWS/GCP", level: 65 },
+        { name: "MongoDB", level: 85 },
         { name: "PostgreSQL", level: 80 },
-        { name: "Linux", level: 75 },
+        { name: "Apache Kafka & Spark", level: 75 },
       ]
     }
   ];

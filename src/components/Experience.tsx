@@ -5,41 +5,28 @@ import { Calendar, MapPin } from "lucide-react";
 export const Experience = () => {
   const experiences = [
     {
-      title: "Software Development Intern",
-      company: "Tech Innovations Inc.",
-      location: "Remote",
-      period: "June 2024 - August 2024",
+      title: "Joint Secretary",
+      company: "OWASP Student Chapter, TIET",
+      location: "Patiala, Punjab",
+      period: "September 2024 - August 2025",
       description: [
-        "Developed responsive web applications using React and TypeScript",
+        "Managed an International Org's Student Chapter with 150+ members",
+        "Led the Design and Tech departments of the society",
+        "Successfully conducted an international Hackathon series named HackOwasp",
+      ]
+    },
+    {
+      title: "Software Development Intern",
+      company: "BlueStock FinTech",
+      location: "Remote",
+      period: "May 2025 - July 2025",
+      description: [
+        "Developed responsive IPO-related web applications using React and Django",
         "Collaborated with senior developers on full-stack projects",
         "Improved application performance by 25% through code optimization",
         "Participated in agile development processes and code reviews"
       ]
     },
-    {
-      title: "Research Assistant",
-      company: "University Computer Science Department",
-      location: "Campus",
-      period: "January 2024 - Present",
-      description: [
-        "Assisted in machine learning research projects",
-        "Developed data analysis scripts using Python and pandas",
-        "Contributed to academic papers on AI applications",
-        "Maintained research databases and documentation"
-      ]
-    },
-    {
-      title: "Freelance Web Developer",
-      company: "Self-Employed",
-      location: "Remote",
-      period: "September 2023 - Present",
-      description: [
-        "Built custom websites for small businesses and startups",
-        "Implemented modern design principles and responsive layouts",
-        "Managed client relationships and project timelines",
-        "Delivered projects on time with 100% client satisfaction"
-      ]
-    }
   ];
 
   return (
