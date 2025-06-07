@@ -1,7 +1,7 @@
-
 import { motion } from "framer-motion";
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import TrueFocus from "./ui/TrueFocus/TrueFocus.js";
 
 export const Hero = () => {
   return (
@@ -41,9 +41,19 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
+            {/* <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
               Ashmit Thawait
-            </span>
+            </span> */}
+
+            <TrueFocus 
+            sentence="Ashmit Thawait"
+            manualMode={false}
+            blurAmount={5}
+            borderColor="rgba(0, 216, 255, 1)"
+            glowColor="rgba(0, 255, 0, 0.6)"
+            animationDuration={0.8}
+            pauseBetweenAnimations={1}
+            />
           </motion.h1>
 
           <motion.div
