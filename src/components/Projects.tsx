@@ -9,7 +9,7 @@ export const Projects = () => {
       title: "ClickBait - Dynamic A/B Testing Engine",
       description: "A clickstream-based dynamic A/B Testing Engine that automates UI/UX testing with Multi-Armed Bandit and Bayesian Optimization. Dynamically shifts traffic to better-performing variations in real-time, capable of handling 100,000+ clicks/second.",
       tech: ["Python", "FastAPI", "Apache Kafka", "MongoDB", "Next.js", "TailwindCSS"],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
       github: "https://github.com/ashmit0920/ClickBait",
       live: "#"
     },
@@ -25,7 +25,7 @@ export const Projects = () => {
       title: "Autonomous Web Agent",
       description: "AI agent that controls a web browser, parses websites and takes appropriate actions to navigate - completely autonomously.",
       tech: ["Python", "Playwright", "Gemini 2.5", "Chromium"],
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
       github: "https://github.com/ashmit0920/autonomous-web-agent",
       live: "#"
     },
@@ -33,7 +33,7 @@ export const Projects = () => {
       title: "MoodMuse",
       description: "An AI-powered Journaling App that provides insights, writing suggestions, and mood analysis for your daily entries.",
       tech: ["React Native", "Expo", "Gemini"],
-      image: "https://github.com/ashmit0920/MoodMuse/blob/main/assets/mockup.png",
+      image: "../../public/mockup.png?w=600&h=400&fit=crop",
       github: "https://github.com/ashmit0920/MoodMuse",
       live: "#"
     }
