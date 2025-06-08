@@ -1,40 +1,40 @@
 
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button.js";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, shopping cart, payment integration, and admin dashboard.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe", "TailwindCSS"],
+      title: "ClickBait - Dynamic A/B Testing Engine",
+      description: "A clickstream-based dynamic A/B Testing Engine that automates UI/UX testing with Multi-Armed Bandit and Bayesian Optimization. Dynamically shifts traffic to better-performing variations in real-time, capable of handling 100,000+ clicks/second.",
+      tech: ["Python", "FastAPI", "Apache Kafka", "MongoDB", "Next.js", "TailwindCSS"],
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      github: "#",
+      github: "https://github.com/ashmit0920/ClickBait",
       live: "#"
     },
     {
-      title: "AI Chat Application",
-      description: "Real-time chat application with AI integration using OpenAI API. Features include message encryption, file sharing, and intelligent responses.",
-      tech: ["React", "Socket.io", "Express", "OpenAI API", "PostgreSQL"],
+      title: "Piko.ai - Learning Assistant",
+      description: "An AI-powered learning assistant that generates accurate, animated explanations using the Manim library and Gemini 2.5, grounded in real-time documentation via a custom-built vector index.",
+      tech: ["Python", "FastAPI", "React", "TypeScript", "Gemini 2.5", "LangChain", "MongoDB"],
       image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
-      github: "#",
+      github: "https://github.com/ashmit0920/Piko.ai",
       live: "#"
     },
     {
-      title: "Task Management System",
-      description: "Collaborative project management tool with drag-and-drop functionality, real-time updates, and team collaboration features.",
-      tech: ["React", "TypeScript", "Firebase", "Framer Motion", "Material-UI"],
+      title: "Autonomous Web Agent",
+      description: "AI agent that controls a web browser, parses websites and takes appropriate actions to navigate - completely autonomously.",
+      tech: ["Python", "Playwright", "Gemini 2.5", "Chromium"],
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      github: "#",
+      github: "https://github.com/ashmit0920/autonomous-web-agent",
       live: "#"
     },
     {
-      title: "Weather Analytics Dashboard",
-      description: "Interactive weather dashboard with data visualization, forecasting, and location-based services using third-party APIs.",
-      tech: ["React", "D3.js", "Python", "FastAPI", "Chart.js"],
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      github: "#",
+      title: "MoodMuse",
+      description: "An AI-powered Journaling App that provides insights, writing suggestions, and mood analysis for your daily entries.",
+      tech: ["React Native", "Expo", "Gemini"],
+      image: "https://github.com/ashmit0920/MoodMuse/blob/main/assets/mockup.png",
+      github: "https://github.com/ashmit0920/MoodMuse",
       live: "#"
     }
   ];
