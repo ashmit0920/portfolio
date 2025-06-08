@@ -33,7 +33,7 @@ export const Projects = () => {
       title: "MoodMuse",
       description: "An AI-powered Journaling App that provides insights, writing suggestions, and mood analysis for your daily entries.",
       tech: ["React Native", "Expo", "Gemini"],
-      image: "../../public/mockup.png?w=600&h=400&fit=crop",
+      image: "/mockup.png",
       github: "https://github.com/ashmit0920/MoodMuse",
       live: "#"
     }
